@@ -1,7 +1,8 @@
+import RecipeReviewCard from "./Site/2-Contenidos/CardMaterialUI"
 const App =() => {
   return (
     <div className="App">
-      <h1>Hola Mundo!</h1>
+      <RecipeReviewCard/>
     </div>
   );
 };
