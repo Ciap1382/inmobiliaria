@@ -1,6 +1,6 @@
 import RecipeReviewCard from "./Site/2-Contenidos/CardMaterialUI";
 import AccountMenu from "./Site/1-Encabezados/MenuMaterialUI";
-import "./Assets/css/index.css"
+import "./Assets/css/index.scss"
 const App =() => {
   return (
     <>
