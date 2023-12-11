@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.gallery{
+  display: flex;
+  flex-direction: row;
+  background-color: var(--background);
+  padding: 20px;
+  gap: 40px;
+  justify-content: center;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cardContent {
+  position: relative;
+  left: 0px;
+  width: 370px;
+  height: 500px;
+  background-color: var(--background);
+  border-radius: 8px;
+  transition: 1000ms all;
+  transform-origin: center left;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+  outline: 1px solid var(--background);
+  overflow: hidden;
+}
+.cardContent img{
+  object-fit: cover;
+  border-radius: 4px;
+}
+.cardContent:hover{
+  cursor: pointer;
+  transform: scale(1.15);
+}
+.cardContent:hover figcaption{
+  position: absolute;
+  height: 80px;
+  width: 160px;
+  display: flex;
+  align-items: end;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0), 100%
+  );
+  color: white;
+  left: 0px;
+  bottom: 0px;
+  padding-left: 12px;
+  padding-bottom: 10px;
+}
+.cardContent:hover ~ .cardContent{
+  font-weight: bold;
+  cursor: pointer;
+  transform: translate(22px);
+}
+.menu{
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+}
+.submenu{
+  gap: 4px;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid red;
 }
