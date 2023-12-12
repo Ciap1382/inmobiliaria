@@ -1,16 +1,20 @@
-import RecipeReviewCard from "./Site/2-Contenidos/CardMaterialUI";
-import AccountMenu from "./Site/1-Encabezados/MenuMaterialUI";
-import "./Assets/css/index.scss"
+import CardBootstrap from "./Site/2-Contenidos/CardBootstrap";
+import CarouselMDB from "./Site/2-Contenidos/CarouselMDB";
+import MenuBootstrap from "./Site/1-Encabezados/MenuBootstrap";
+import "./Assets/scss/index.scss"
 const App =() => {
   return (
     <>
     <div className="menu">
-      <AccountMenu/>
+      <MenuBootstrap/>
+    </div>
+    <div className="carousel">
+      <CarouselMDB/>
     </div>
     <div className="gallery">
-      <div className="cardContent"><RecipeReviewCard/></div>
-      <div className="cardContent"><RecipeReviewCard/></div>
-      <div className="cardContent"><RecipeReviewCard/></div>      
+      <div className="cardContent"><CardBootstrap/></div>
+      <div className="cardContent"><CardBootstrap/></div>
+      <div className="cardContent"><CardBootstrap/></div>
     </div>
     </>
   );
