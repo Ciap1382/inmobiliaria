@@ -1,7 +1,9 @@
-import CardBootstrap from "./Site/2-Contenidos/CardBootstrap";
-import CarouselMDB from "./Site/2-Contenidos/CarouselMDB";
 import MenuBootstrap from "./Site/1-Encabezados/MenuBootstrap";
-import "./Assets/scss/index.scss"
+import CardBootstrap from "./Site/2-Contenidos/CardBootstrap";
+import Slider from "./Site/2-Contenidos/CarouselBootstrap";
+import slides from "./sources/json/movies.json";
+import "./Assets/scss/index.scss";
+import "./Assets/scss/slider.scss";
 const App =() => {
   return (
     <>
@@ -9,7 +11,7 @@ const App =() => {
       <MenuBootstrap/>
     </div>
     <div className="carousel">
-      <CarouselMDB/>
+      <Slider slides={slides}/>
     </div>
     <div className="gallery">
       <div className="cardContent"><CardBootstrap/></div>
