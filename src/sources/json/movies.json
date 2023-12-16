@@ -1,17 +1,20 @@
 [
   {
-    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ncKCQVXgk4BcQV6XbvesgZ2zLvZ.jpg",
+    "image": "1",
     "title": "Oppenheimer",
-    "subtitle": "Película sobre el físico J. Robert Oppenheimer y su papel como desarrollador de la bomba atómica. Basada en el libro 'American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer' de Kai Bird y Martin J. Sherwin."
+    "subtitle": "Película sobre el físico J. Robert Oppenheimer y su papel como desarrollador de la bomba atómica. Basada en el libro 'American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer' de Kai Bird y Martin J. Sherwin.",
+    "link": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ncKCQVXgk4BcQV6XbvesgZ2zLvZ.jpg"
   },
   {
-    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vpuuFM032yiX8tox4L84Wl9MGjG.jpg",
+    "image": "2",
     "title": "The Marvels",
-    "subtitle": "Cuando sus deberes llevan a Carol Danvers, alias Capitana Marvel, a un agujero de gusano anómalo vinculado a un revolucionario Kree, sus poderes se enredan con los de Ms. Marvel y con los de Monica Rambeau, la distanciada sobrina de Carol y astronauta de S.A.B.E.R. Juntas, deberán trabajar en sincronía para salvar al universo como The Marvels."
+    "subtitle": "Cuando sus deberes llevan a Carol Danvers, alias Capitana Marvel, a un agujero de gusano anómalo vinculado a un revolucionario Kree, sus poderes se enredan con los de Ms. Marvel y con los de Monica Rambeau, la distanciada sobrina de Carol y astronauta de S.A.B.E.R. Juntas, deberán trabajar en sincronía para salvar al universo como The Marvels.",
+    "link": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vpuuFM032yiX8tox4L84Wl9MGjG.jpg"
   },
   {
-    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t3qZAygWwd7sX6G9ae2a4R2Wbrh.jpg",
+    "image": "3",
     "title": "Los Simpsons",
-    "subtitle": "Ubicado en Springfield, la ciudad estadounidense promedio, el espectáculo se centra en las travesuras y las aventuras cotidianas de la familia Simpson; Homero, Marge, Bart, Lisa y Maggie, así como un reparto virtual de miles. Desde el principio, la serie ha sido un icono de la cultura pop, que atrae a cientos de celebridades a la estrella invitada. El programa también se ha dado a conocer en su intrépida visión satírica de la política, los medios y la vida estadounidense en general."
+    "subtitle": "Ubicado en Springfield, la ciudad estadounidense promedio, el espectáculo se centra en las travesuras y las aventuras cotidianas de la familia Simpson; Homero, Marge, Bart, Lisa y Maggie, así como un reparto virtual de miles. Desde el principio, la serie ha sido un icono de la cultura pop, que atrae a cientos de celebridades a la estrella invitada. El programa también se ha dado a conocer en su intrépida visión satírica de la política, los medios y la vida estadounidense en general.",
+    "link": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t3qZAygWwd7sX6G9ae2a4R2Wbrh.jpg"
   }
 ]

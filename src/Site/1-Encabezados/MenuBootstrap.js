@@ -6,14 +6,17 @@ function MenuBootstrap() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary justify-content-md-center menu">
       <Container>
-        <Navbar.Brand href="#home">Inmobiliaria</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img 
+          src={require('../../Assets/img/logo.jpeg')}
+          width={'90px'}
+          />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Venta</Nav.Link>
             <Nav.Link href="#link">Renta</Nav.Link>
-            <Nav.Link href="#link">Usos comerciales</Nav.Link>
-            <Nav.Link href="#link">Usos industriales</Nav.Link>
             <NavDropdown title="Cuenta" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Acceso</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Registro</NavDropdown.Item>

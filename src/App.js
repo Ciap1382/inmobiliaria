@@ -1,9 +1,11 @@
 import MenuBootstrap from "./Site/1-Encabezados/MenuBootstrap";
-import CardBootstrap from "./Site/2-Contenidos/CardBootstrap";
+import House from "./Site/2-Contenidos/CardBootstrap";
 import Slider from "./Site/2-Contenidos/CarouselBootstrap";
 import slides from "./sources/json/movies.json";
+//import houses from "./sources/json/houses.json";
 import "./Assets/scss/index.scss";
 import "./Assets/scss/slider.scss";
+import "./Assets/scss/chakra.scss";
 const App =() => {
   return (
     <>
@@ -14,11 +16,12 @@ const App =() => {
       <Slider slides={slides}/>
     </div>
     <div className="gallery">
-      <div className="cardContent"><CardBootstrap/></div>
-      <div className="cardContent"><CardBootstrap/></div>
-      <div className="cardContent"><CardBootstrap/></div>
+      <House/>
     </div>
     </>
   );
 };
 export default App;
+/*
+<div className="cardContent"><House/></div>
+*/

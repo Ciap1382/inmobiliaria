@@ -1,0 +1,20 @@
+[
+  {
+    "imagen": "1",
+    "titulo": "John Wick 4",
+    "subtitulo": "John Wick descubre un camino para derrotar a la Alta Mesa.",
+    "link": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gh2bmprLtUQ8oXCSluzfqaicyrm.jpg"
+  },
+  {
+    "imagen": "2",
+    "titulo": "CSI: Miami",
+    "subtitulo": "CSI: Miami es una serie de televisión estadounidense creada en 2002 sobre el trabajo del Laboratorio de Criminalística de la Policía de Miami",
+    "link": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pNW64pjaHvf6purNaFhq4SHYRfl.jpg"
+  },
+  {
+    "imagen": "3",
+    "titulo": "Bones",
+    "subtitulo": "Una antropóloga forense y un engreído agente del FBI forman equipo para investigar las causas de los homicidios que investigan.",
+    "link": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eyTu5c8LniVciRZIOSHTvvkkgJa.jpg"
+  }
+]

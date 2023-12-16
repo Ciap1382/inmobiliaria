@@ -1,0 +1,37 @@
+.css-1thx6yf {
+display: inline-flex;
+    vertical-align: top;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 100%;
+    line-height: 1.2;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    border-radius: var(--chakra-radii-full);
+    min-height: var(--chakra-sizes-6);
+    min-width: var(--chakra-sizes-6);
+    font-size: var(--chakra-fontSizes-sm);
+    --badge-bg: var(--chakra-colors-gray-100);
+    --badge-color: var(--chakra-colors-gray-800);
+    position: absolute;
+    left: calc(var(--chakra-space-4) * -1);
+    top: var(--chakra-space-4);
+    background: var(--chakra-colors-accent-500);
+    color: var(--chakra-colors-white);
+    font-weight: var(--chakra-fontWeights-bold);
+    padding-inline-start: var(--chakra-space-8);
+    padding-inline-end: var(--chakra-space-8);
+    padding-top: var(--chakra-space-2);
+    padding-bottom: var(--chakra-space-2);
+    color: white;
+    border: 2px solid red;
+}
+*, ::before, ::after {
+  border-color: var(--chakra-colors-chakra-border-color);
+  overflow-wrap: break-word;
+}
+*, ::before, ::after {
+  border-width: 0px;
+  border-style: solid;
+  box-sizing: border-box;
+}

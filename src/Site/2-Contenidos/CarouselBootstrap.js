@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 function Slider( {slides} ) {
   const [index, setIndex] = useState(0);
   const handleSelect = (selectedIndex, ) => {
-    console.log('selected index: ', selectedIndex)
     setIndex(selectedIndex);
   };
   return (
@@ -12,7 +11,7 @@ function Slider( {slides} ) {
         <Carousel.Item key={slide.image}>
         <img
           className="d-block"
-          src={slide.image}
+          src={require('../../Assets/img/'+slide.image+'.jpg')}
           alt="First slide"
         />
         <Carousel.Caption>
