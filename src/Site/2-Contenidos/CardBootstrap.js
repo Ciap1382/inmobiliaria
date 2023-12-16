@@ -1,14 +1,8 @@
-import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import houses from "../../sources/json/houses.json";
-import { ColorModeScript } from '@chakra-ui/react'
 function House() {
   const cardArr = houses;
-  const [index, setIndex] = useState(0);
-  const handleSelect = (selectedIndex, ) => {
-    setIndex(selectedIndex);
-  };
   return (
     <div className='row' style={{ marginTop: '1%', gap: '4%' }}>
       {cardArr.map((eachCard, index) => (
