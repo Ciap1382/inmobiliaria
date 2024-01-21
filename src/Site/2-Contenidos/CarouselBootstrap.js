@@ -9,11 +9,7 @@ function Slider( {slides} ) {
     <Carousel activeIndex={index} onSelect={handleSelect}>
       {slides.map((slide) => (
         <Carousel.Item key={slide.image}>
-        <img
-          className="d-block"
-          src={require('../../Assets/img/'+slide.image+'.jpg')}
-          alt="First slide"
-        />
+        <img className="d-block" src={require('../../Assets/img/'+slide.image+'.jpg')} alt="Slide" />
         <Carousel.Caption>
           <h3>{slide.title}</h3>
           <p>{slide.subtitle}</p>

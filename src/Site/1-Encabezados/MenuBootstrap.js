@@ -7,10 +7,7 @@ function MenuBootstrap() {
     <Navbar expand="lg" className="bg-body-tertiary justify-content-md-center menu">
       <Container>
         <Navbar.Brand href="#home">
-          <img 
-          src={require('../../Assets/img/logo.jpeg')}
-          width={'90px'}
-          />
+          <img src={require('../../Assets/img/logo.jpeg')} width={'90px'} alt='Renacer' />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -28,5 +25,5 @@ function MenuBootstrap() {
       </Container>
     </Navbar>
   );
-}
+};
 export default MenuBootstrap;
